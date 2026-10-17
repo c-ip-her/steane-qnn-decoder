@@ -14,9 +14,7 @@ results/          Recorded measurements, checkpoints, datasets and figures
 WRITEUP.pdf       Final four-page report of the included reference run
 ```
 
-The PDF is a standalone document. There is no report-generation code. Running
-experiments does not change it. If you change the settings or results, revise
-the report separately. The results summary is also a static reference document.
+
 
 ## Install
 
