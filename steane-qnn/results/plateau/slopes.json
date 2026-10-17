@@ -1,0 +1,74 @@
+[
+  {
+    "depth": 1,
+    "initialization": "random",
+    "cost": "global",
+    "log10_slope": -0.4748996689372498
+  },
+  {
+    "depth": 1,
+    "initialization": "random",
+    "cost": "local",
+    "log10_slope": -0.16233903600816466
+  },
+  {
+    "depth": 1,
+    "initialization": "small",
+    "cost": "global",
+    "log10_slope": -0.13229338340663999
+  },
+  {
+    "depth": 1,
+    "initialization": "small",
+    "cost": "local",
+    "log10_slope": -0.17294596047570224
+  },
+  {
+    "depth": 3,
+    "initialization": "random",
+    "cost": "global",
+    "log10_slope": -0.4840712738778623
+  },
+  {
+    "depth": 3,
+    "initialization": "random",
+    "cost": "local",
+    "log10_slope": -0.17074266819134484
+  },
+  {
+    "depth": 3,
+    "initialization": "small",
+    "cost": "global",
+    "log10_slope": -0.12312540566737398
+  },
+  {
+    "depth": 3,
+    "initialization": "small",
+    "cost": "local",
+    "log10_slope": -0.16024638598174654
+  },
+  {
+    "depth": 6,
+    "initialization": "random",
+    "cost": "global",
+    "log10_slope": -0.5242971571418023
+  },
+  {
+    "depth": 6,
+    "initialization": "random",
+    "cost": "local",
+    "log10_slope": -0.1847660538029041
+  },
+  {
+    "depth": 6,
+    "initialization": "small",
+    "cost": "global",
+    "log10_slope": -0.12661155087890322
+  },
+  {
+    "depth": 6,
+    "initialization": "small",
+    "cost": "local",
+    "log10_slope": -0.15627158179134995
+  }
+]
