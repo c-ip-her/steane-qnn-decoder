@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-19",
+  "syndrome_tests": "passed",
+  "dataset_reused": true,
+  "classical_models": "MLP and GRU retrained; lookup evaluated",
+  "qnn": "not executed; dependencies unavailable and package index unreachable",
+  "report": "results/Steane_QNN_Error_Decoding_Writeup.pdf",
+  "metrics": "results/metrics.json"
+}
