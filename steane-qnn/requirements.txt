@@ -1,7 +1,0 @@
-numpy==1.26.4
-matplotlib==3.9.2
-pandas==2.2.3
-torch==2.5.1
-qiskit==1.2.4
-qiskit-machine-learning==0.8.2
-scikit-learn==1.5.2
