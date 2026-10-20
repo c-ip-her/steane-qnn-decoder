@@ -1,0 +1,41 @@
+{
+  "test_metrics": {
+    "lookup": {
+      "correction_label_accuracy": 0.808,
+      "x_component_accuracy": 0.894,
+      "z_component_accuracy": 0.8986666666666666
+    },
+    "mlp": {
+      "correction_label_accuracy": 0.808,
+      "x_component_accuracy": 0.894,
+      "z_component_accuracy": 0.8986666666666666
+    },
+    "gru": {
+      "correction_label_accuracy": 0.834,
+      "x_component_accuracy": 0.9106666666666666,
+      "z_component_accuracy": 0.908
+    },
+    "qnn": {
+      "correction_label_accuracy": 0.7953333333333333,
+      "x_component_accuracy": 0.8806666666666667,
+      "z_component_accuracy": 0.896
+    }
+  },
+  "cross_entropy_loss": {
+    "mlp": 0.48799848556518555,
+    "gru": 0.3405953347682953,
+    "qnn": 0.42423015832901
+  },
+  "training_seconds": {
+    "mlp": 2.020747499947902,
+    "gru": 3.5215514000155963,
+    "qnn": 8859.02905339998
+  },
+  "qnn_inference_seconds_for_test_set": 24.74852970003849,
+  "notes": [
+    "Lookup and MLP use the latest observed syndrome; GRU uses all three rounds.",
+    "Labels are reference single-qubit labels derived from the final true syndrome.",
+    "QNN uses a local exact StatevectorEstimator; no quantum hardware was used.",
+    "No logical-error rate is reported because full recovery/logical-observable simulation is not implemented."
+  ]
+}
